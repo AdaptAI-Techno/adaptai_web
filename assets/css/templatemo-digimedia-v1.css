@@ -127,7 +127,7 @@ p {
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
-  color: #afafaf;
+  color: #575555;
 }
 
 img {
@@ -353,7 +353,7 @@ header
 }
 
 .pre-header ul.info li a {
-  color: #afafaf;
+  color: #575555;
   font-size: 14px;
   transition: all .3s;
 }
@@ -376,7 +376,7 @@ header
 }
 
 .pre-header ul.social-media li a {
-  background-color: #afafaf;
+  background-color: #575555;
   color: #fff;
   display: inline-block;
   width: 30px;
@@ -1181,7 +1181,7 @@ About Style
 .progress .progress-value span {
   font-size: 18px;
   text-transform: none;
-  color: #afafaf;
+  color: #575555;
   font-weight: 300;
 }
 
@@ -1463,13 +1463,13 @@ Services Style
 }
 
 .services .nacc .thumb .main-white-button a {
-  background-color: #8d99af;
+  background-color: #575555;
   color: #fff;
 }
 
 .services .nacc .thumb .main-white-button a i {
   background-color: #fff;
-  color: #8d99af;
+  color: #575555;
 }
 
 .services .left-text h4 {
@@ -1539,7 +1539,7 @@ Free Quote
   width: 100%;
   margin-top: 20px;
   margin-left: 30px;
-  color: #afafaf;
+  color: #575555;
   font-weight: 400;
   font-size: 15px;
   height: 40px;
@@ -1759,7 +1759,7 @@ Blog
 
 .blog-post .down-content span.date {
   font-size: 15px;
-  color: #afafaf;
+  color: #575555;
   text-align: right;
   float: right;
   margin-top: 4px;
