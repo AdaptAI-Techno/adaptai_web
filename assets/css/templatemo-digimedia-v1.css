@@ -737,6 +737,56 @@ header
   color: #fa65b1;
 }
 
+.training-calendar {
+  border: 2px solid #2a2a2a;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 130px;
+}
+
+.training-calendar thead {
+  background-color: #726ae3;
+  color: white;
+}
+
+.training-calendar thead tr:first-child th {
+  background-color: #fa65b1;
+  color: white;
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 15px;
+}
+
+.training-calendar thead tr:nth-child(2) th {
+  text-align: center;
+  vertical-align: middle;
+  background-color: #726ae3;
+  color: white;
+}
+
+.training-calendar tbody td {
+  text-align: center;
+  vertical-align: middle;
+  word-wrap: break-word;
+  max-width: 200px;
+  padding: 12px;
+  border: 1px solid #afafaf;
+}
+
+.training-calendar tbody tr:nth-child(even) {
+  background-color: rgba(114, 106, 227, 0.1);
+}
+
+.training-calendar tbody tr:hover {
+  background-color: rgba(114, 106, 227, 0.2);
+}
+
+@media (max-width: 768px) {
+  .training-calendar {
+      font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 12px;
