@@ -1558,6 +1558,21 @@ Services Style
   border-radius: 50%;
 }
 
+@media (max-width: 768px) { 
+  .service-icons div {
+    margin: 20px;
+  }
+  
+  .service-icons-text {
+    font-size: 8px;
+    line-height: 12px;
+  }  
+
+  .icon img {
+    max-width: 10px;
+    min-width: 10px;
+  }
+}
 
 
 /* 
