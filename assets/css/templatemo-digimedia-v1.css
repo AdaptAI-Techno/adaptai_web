@@ -1370,6 +1370,14 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin-bottom: 1em;
 }
 
+@media (max-width: 767px) {
+  .about-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+
 /* 
 ---------------------------------------------
 Services Style
